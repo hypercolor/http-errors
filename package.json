@@ -1,0 +1,46 @@
+{
+  "name": "@hypercolor/http-errors",
+  "version": "0.0.1",
+  "description": "Custom HTTP Error Class used by the team at Hypercolor to provide consistent HTTP Error formatting between services for a given project.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "/**/*.d.ts",
+    "/**/*.js",
+    "index.js",
+    "index.d.ts",
+    "LICENSE"
+  ],
+  "prepublish": "tsc --build --clean && tsc --build",
+  "scripts": {
+    "build": "tsc --build --clean && tsc --build"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.4.2",
+    "tslint": "^6.1.3",
+    "tslint-loader": "^3.5.4",
+    "typescript": "^4.9.4"
+  },
+  "keywords": [
+    "errors",
+    "http",
+    "error",
+    "error",
+    "class",
+    "custom",
+    "errors"
+  ],
+  "author": "Seth Uschuk",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hypercolor/http-errors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hypercolor/http-errors/issues"
+  },
+  "homepage": "https://github.com/hypercolor/http-errors#readme",
+  "dependencies": {
+    "ts-custom-error": "^3.3.1"
+  }
+}
